@@ -15,9 +15,9 @@ public class Init {
             "Jhin", "Jun", "Konda", "Lacon", "Mandoo", "meatsby", "Mk", "mong", "OS", "Phill",
             "sonny", "tasku", "Tany", "Teemo", "Yan", "young", "검봉", "노리", "땃쥐", "반스", "피오", "호두마루");
 
-        static {
-            for(int i=MIN_MEMBER_SIZE; i<MAX_MEMBER_SIZE; i++){
-                Members.list.add(new Member(i, new Name(nameList.get(i))));
+    static {
+        for (int i = MIN_MEMBER_SIZE; i < MAX_MEMBER_SIZE; i++) {
+            Members.list.add(new Member(i, new Name(nameList.get(i))));
         }
     }
 }

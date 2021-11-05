@@ -4,6 +4,8 @@ package com.example.randompick;
 import com.example.randompick.model.Player;
 import com.example.randompick.view.*;
 
+import java.util.InputMismatchException;
+
 public class Main {
     static InputView inputView = new InputConsoleView();
     static OutputView outputViewr = new OutputConsoleView();
