@@ -20,7 +20,7 @@ public class GameMachine {
         Init init = new Init();
     }
 
-    public List<Member> getShuffledMembers(int count){
+    public List<Member> getShuffledMembers(int count) {
         return Members.of().getShuffledMembers(count);
     }
 }

@@ -12,11 +12,11 @@ public class GameResult {
         this.members = members;
     }
 
-    public static GameResult of(List<Member> members){
+    public static GameResult of(List<Member> members) {
         return new GameResult(members);
     }
 
-    public List<Member> getMembers(){
+    public List<Member> getMembers() {
         return this.members;
     }
 }
